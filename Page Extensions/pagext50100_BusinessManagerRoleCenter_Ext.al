@@ -16,6 +16,7 @@ pageextension 50100 "NTD BusinessManager RC Ext" extends "Business Manager Role 
             action("Init EA")
             {
                 Caption = 'Init EA';
+                RunObject = page Init_EA;
                 Promoted = true;
                 PromotedIsBig = true;
                 ApplicationArea = All;
