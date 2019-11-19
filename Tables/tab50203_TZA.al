@@ -14,6 +14,12 @@ table 50203 TZA
             DataClassification = ToBeClassified;
             Description = 'description';
         }
+
+        field(50103; Text; Text[50])
+        {
+            DataClassification = ToBeClassified;
+            Description = 'text';
+        }
     }
 
     keys
