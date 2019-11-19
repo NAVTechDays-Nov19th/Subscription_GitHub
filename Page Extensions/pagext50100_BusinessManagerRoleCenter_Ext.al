@@ -13,6 +13,14 @@ pageextension 50100 "NTD BusinessManager RC Ext" extends "Business Manager Role 
                 RunObject = page "NTD Subscription List";
                 ApplicationArea = All;
             }
+            action("HEY")
+            {
+                Caption = 'HEY_pag50204';
+                Promoted = true;
+                PromotedIsBig = true;
+                RunObject = page HEY_pag50204;
+                ApplicationArea = All;
+            }
         }
         addafter(Setup)
         {
