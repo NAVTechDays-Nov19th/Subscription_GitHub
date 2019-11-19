@@ -18,6 +18,12 @@ table 50207 "PR_07"
             DataClassification = ToBeClassified;
 
         }
+        field(3; Description2; Text[50])
+        {
+            Caption = 'Description2';
+            DataClassification = ToBeClassified;
+
+        }
     }
 
     keys
