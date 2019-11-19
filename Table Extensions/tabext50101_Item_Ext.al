@@ -9,6 +9,11 @@ tableextension 50101 "NTD Item Ext" extends Item
             CalcFormula = Exist ("NTD Customer Subscription" WHERE("Item No" = FIELD("No."), Active = CONST(true)));
             Editable = false;
         }
+        field(50106; "Init_06"; Text[50])
+        {
+            Caption = 'Dave''s field';
+        }
+
 
         field(50102; "NTD Init_NA"; Text[50])
         {
@@ -19,10 +24,17 @@ tableextension 50101 "NTD Item Ext" extends Item
         {
             DataClassification = CustomerContent;
         }
+
         field(50209; SES_RedAlert; Code[50])
         {
             DataClassification = CustomerContent;
             Caption = 'Red Alert';
+
+  
+        field(50105; Init_OH; Text[50])
+        {
+            DataClassification = CustomerContent;
+
         }
     }
 }
