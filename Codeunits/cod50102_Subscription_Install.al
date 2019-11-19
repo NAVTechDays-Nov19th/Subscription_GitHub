@@ -18,6 +18,7 @@ codeunit 50102 "NTD SubscriptionInstall"
         Init_OH05Table : Record Init_OH;
     begin
         Init_OH05Table.Code := 'OH';
-        Init_OH05Table.Description := 'Oliver Hoehme'
+        Init_OH05Table.Description := 'Oliver Hoehme';
+        IF Init_OH05Table.Insert() THEN;
     end;
 }
