@@ -6,6 +6,7 @@ codeunit 50102 "NTD SubscriptionInstall"
     begin
         // Instantiate variables needed for the extension
         AAS_15();
+
     end;
 
     trigger OnInstallAppPerDatabase();

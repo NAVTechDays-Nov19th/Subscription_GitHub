@@ -27,5 +27,10 @@ tableextension 50100 "NTD Customer Ext" extends Customer
             Caption = 'SES_02';
         }
 
+        field(50110; "JWE Description"; Text[50])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Description';
+        }
     }
 }
