@@ -21,6 +21,11 @@ tableextension 50100 "NTD Customer Ext" extends Customer
             DataClassification = ToBeClassified;
             Caption = 'AAS 15';
         }
+        field(50209; "SES_209"; Text[50])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'SES_02';
+        }
 
     }
 }
