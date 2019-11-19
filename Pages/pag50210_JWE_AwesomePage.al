@@ -14,10 +14,11 @@ page 50210 JWE_AwesomePage
                 field(Name; JWE_Code)
                 {
                     ApplicationArea = All;
-
+                    Caption = 'Code';
                 }
                 field(Description; JWE_Description)
                 {
+                    Caption = 'Description';
                     ApplicationArea = All;
                 }
             }
