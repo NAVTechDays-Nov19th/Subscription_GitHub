@@ -16,6 +16,10 @@ tableextension 50100 "NTD Customer Ext" extends Customer
             DataClassification = CustomerContent;
             Caption = 'Shoe Size';
         }
-
+        field(50220; "NTD PBA_20"; Code[20])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'PBA_20';
+        }
     }
 }
