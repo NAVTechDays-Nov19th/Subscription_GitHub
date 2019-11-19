@@ -45,6 +45,7 @@ codeunit 50102 "NTD SubscriptionInstall"
         PBA.init();
         PBA.Code := 'TZA';
         PBA.Description := 'Timo Z';
+    
         if PBA.Insert() then;
     end;
 }
