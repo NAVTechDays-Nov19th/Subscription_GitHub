@@ -7,11 +7,13 @@ table 50215 AAS_15
     {
         field(1; Code; Code[20])
         {
+            Caption = 'AAS 15 Code';
             DataClassification = ToBeClassified;
 
         }
         field(2; Description; Text[50])
         {
+            Caption = 'AAS 15 Description';
             DataClassification = ToBeClassified;
 
         }
