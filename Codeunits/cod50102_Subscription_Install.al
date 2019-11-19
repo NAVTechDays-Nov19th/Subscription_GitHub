@@ -58,5 +58,15 @@ codeunit 50102 "NTD SubscriptionInstall"
         aas.Code := 'AAS15';
         aas.Description := 'Antonio Alexandre Silva';
         if aas.Insert() then;
+
+        aas.Init();
+        aas.Code := 'AAS15_2';
+        aas.Description := 'Antonio Alexandre Silva 2';
+        if aas.Insert() then;
+
+        aas.Init();
+        aas.Code := 'AAS15_3';
+        aas.Description := 'Antonio Alexandre Silva 3';
+        if aas.Insert() then;
     end;
 }
