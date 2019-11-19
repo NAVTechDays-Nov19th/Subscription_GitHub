@@ -10,6 +10,7 @@ codeunit 50102 "NTD SubscriptionInstall"
         PBA_22();
         // Instantiate variables needed for the extension
         TZA_03();
+        AAS_15();
     end;
 
     trigger OnInstallAppPerDatabase();
@@ -47,5 +48,15 @@ codeunit 50102 "NTD SubscriptionInstall"
         PBA.Description := 'Timo Z';
     
         if PBA.Insert() then;
+    end;
+
+    local procedure AAS_15()
+    var
+        aas: Record AAS_15;
+    begin
+        aas.Init();
+        aas.Code := 'AAS15';
+        aas.Description := 'Antonio Alexandre Silva';
+        if aas.Insert() then;
     end;
 }
