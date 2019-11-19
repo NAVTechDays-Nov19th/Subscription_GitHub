@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[{"Id":50214,"Kind":10,"Name":"Init_CB","PackagePath":"/src/Tables/tab50214_Init_CB.AL"}],"Modified":[{"Id":50102,"Kind":11,"Name":"NTD SubscriptionInstall","PackagePath":"/src/Codeunits/cod50102_Subscription_Install.al"}],"Removed":[]}
