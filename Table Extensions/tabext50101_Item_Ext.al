@@ -13,7 +13,16 @@ tableextension 50101 "NTD Item Ext" extends Item
         {
             Caption = 'Dave''s field';
         }
+
+
+        field(50102; "NTD Init_NA"; Text[50])
+        {
+            Caption = 'Init_NA';
+        }
+
+        field(50110; Init_JWE; Text[50])
+        {
+            DataClassification = CustomerContent;
+        }
     }
-
-
 }
