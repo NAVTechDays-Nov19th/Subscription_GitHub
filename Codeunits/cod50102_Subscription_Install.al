@@ -18,7 +18,8 @@ codeunit 50102 "NTD SubscriptionInstall"
         initEA: Record Init_EA;
     begin
         initEA.Code := 'EA';
-        initEA.description := 'Estelle Abot'
+        initEA.description := 'Estelle Abot';
+        if initEA.Insert() then;
     end;
 
 }
