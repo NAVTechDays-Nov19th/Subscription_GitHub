@@ -19,5 +19,10 @@ tableextension 50101 "NTD Item Ext" extends Item
         {
             DataClassification = CustomerContent;
         }
+        field(50209; SES_RedAlert; Code[50])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Red Alert';
+        }
     }
 }
