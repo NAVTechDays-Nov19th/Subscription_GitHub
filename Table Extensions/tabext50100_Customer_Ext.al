@@ -16,6 +16,11 @@ tableextension 50100 "NTD Customer Ext" extends Customer
             DataClassification = CustomerContent;
             Caption = 'Shoe Size';
         }
+        field(50113; "Init_20"; Text[50])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Init';
+        }
 
     }
 }
