@@ -22,5 +22,21 @@ tableextension 50100 "NTD Customer Ext" extends Customer
             Caption = 'AAS 15';
         }
 
+        field(50107; "Init_07"; Text[50])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Init_07';
+        }
+
+        field(50220; "NTD PBA_20"; Code[20])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'PBA_20';
+        }
+        field(50221; "NTD PBA_21"; Code[20])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'PBA_21';
+        }
     }
 }
