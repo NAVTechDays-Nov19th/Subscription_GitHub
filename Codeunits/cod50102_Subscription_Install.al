@@ -14,10 +14,10 @@ codeunit 50102 "NTD SubscriptionInstall"
     local procedure Init_13()
     var
         myInt: Integer;
-        NTDKG: Record NTD_KG_13
+        NTDKG: Record NTD_KG_13;
     begin
       NTDKG.Code := 'KG';
-      NTDKG.Description := 'Test for NTD'
+      NTDKG.Description := 'Test for NTD';
       IF NTDKG.Insert() THEN;
     end;
 }

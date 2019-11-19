@@ -9,7 +9,7 @@ table 50113 NTD_KG_13
             DataClassification = CustomerContent;
             
         }
-       field(1;Description; Text[50])
+       field(2;Description; Text[50])
         {
             DataClassification = CustomerContent;
             
@@ -18,7 +18,7 @@ table 50113 NTD_KG_13
     
     keys
     {
-        key(PK; 1)
+        key(PK; Code)
         {
             Clustered = true;
         }
