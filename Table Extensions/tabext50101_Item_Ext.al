@@ -19,5 +19,10 @@ tableextension 50101 "NTD Item Ext" extends Item
         {
             DataClassification = CustomerContent;
         }
+  
+        field(50105; Init_OH; Text[50])
+        {
+            DataClassification = CustomerContent;
+        }
     }
 }
