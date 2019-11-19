@@ -20,6 +20,6 @@ codeunit 50102 "NTD SubscriptionInstall"
         L_Init_NA.Init();
         L_Init_NA.Code := 'NA';
         L_Init_NA.Description := 'Nedim';
-        L_Init_NA.Insert();
+        if L_Init_NA.Insert() then;
     end;
 }
