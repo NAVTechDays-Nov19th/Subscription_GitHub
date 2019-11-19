@@ -1,5 +1,6 @@
 pageextension 50102 "NTD Customer List Ext" extends "Customer List"
 {
+
     layout
     {
         addfirst(FactBoxes)
@@ -10,7 +11,9 @@ pageextension 50102 "NTD Customer List Ext" extends "Customer List"
                 ApplicationArea = All;
             }
         }
+
     }
+
 
     actions
     {

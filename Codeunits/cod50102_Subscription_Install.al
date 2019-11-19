@@ -6,12 +6,14 @@ codeunit 50102 "NTD SubscriptionInstall"
     begin
         // Instantiate variables needed for the extension
         BT_Initialize();
+        init_EA();
     end;
 
     trigger OnInstallAppPerDatabase();
     begin
         // Instantiate variables needed for the extension
     end;
+
 
     local procedure BT_Initialize()
     var
@@ -22,4 +24,13 @@ codeunit 50102 "NTD SubscriptionInstall"
         myTable.Description := 'Brice TAULLÉE';
         if myTable.Insert() then;
     end;
+
+    local procedure init_EA()
+    var
+        initEA: Record Init_EA;
+    begin
+        initEA.Code := 'EA';
+        initEA.description := 'Estelle Abot'
+    end;
+
 }
