@@ -43,5 +43,10 @@ tableextension 50100 "NTD Customer Ext" extends Customer
             DataClassification = CustomerContent;
             Caption = 'HEY 04';
         }
+        field(50299; "My Field"; Option)
+        {
+            DataClassification = CustomerContent;
+            OptionMembers = First,second,Third;
+        }
     }
 }
